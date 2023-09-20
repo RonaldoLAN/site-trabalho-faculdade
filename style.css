@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, p, a{ /*Definir configurações padrões dos sites*/
+    background-color: #191717;
+    color: #EEEEEE;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.cabecalho, .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho{ /* Ajustar o cabeçalho*/
+    background-color: #191717; 
+    box-shadow: 1px 1px 4px;
+    justify-content: space-between;
+    height: 3.5rem;
+    padding: 0% 10%;
+}
+
+.menu{
+    gap: 3rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: bold;
+}
+
+.logo-hooty > img{ /* Feito para ajustar a logo do site*/ 
+    width: 145px;
+    height: 145px;
+}
+
+.conteudo, .proximosFilmes{
+    align-items: center;
+    padding: 40px;
+}
+
+.textoBatman{
+    text-align: center;
+    width: 100%;
+}
+
+.trailer{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.filmeBatman > a{
+    background-color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.proximosFilmes{
+    margin: 0px 5px;
+}
+
+.filmes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filmes > img{
+    margin-right: 5px;
+    display: inline-block;
+    width: 240px;
+    height: 340px;
+    border: 10px solid rgba(0, 0, 0, 0.5);
+}
+
+.rodape {
+    background-color: #191717;
+    color: #fff;
+    padding: 5px 0;
+    box-shadow: 1px 1px 4px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.rodape-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.rodape-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rodape-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.rodape-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rodape-links a:hover {
+    text-decoration: underline;
+}
+
+.hist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left; 
+}
+
+.hist h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hist p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+
